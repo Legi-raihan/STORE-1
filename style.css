@@ -11,7 +11,7 @@
     margin-top: 50px;
 }
 .card {
-    width: 16rem;
+    width: 14rem;
     height: 270px;
     box-shadow: 0 4px 8px 0 rgba(239, 20, 247, 0.2);
     border-radius: 15px;
@@ -20,9 +20,12 @@
 .card:hover {
     background-color: violet
 }
+.card-body{
+    padding: 20px;
+}
 .card img {
     width: 100%;
-    height: 170px;
+    height: 90px;
     display: block;
 }
 
@@ -45,4 +48,25 @@
             color: #fff;
             text-decoration: none;
           }
-         
+    .iklan{
+    width: 29rem;
+    box-shadow: 0 4px 8px 0 rgba(239, 20, 247, 0.2);
+    border-radius: 20px;
+    overflow: hidden;      
+    }
+    .iklan img {
+    width: 100%;
+    height: 145px;
+    display: block;
+}
+ .category{
+    width: 4rem;
+    box-shadow: 0 4px 8px 0 rgba(239, 20, 247, 0.2);
+    border-radius: 100%;
+    overflow: hidden;      
+    }
+      .category img {
+    width: 100%;
+    height: 50px;
+    display: block;
+}
